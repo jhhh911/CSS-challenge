@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2.625rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 2.25rem;
+  font-weight: 900;
+}
+
+.title-span {
+  font-size: 80px;
+  display: block;
+  font-weight: 900;
+}
+
+.h2-span {
+  font-size: 60px;
+  display: block;
+  font-weight: 900;
+}
+
+a {
+  color: #99d930;
+}
+
+a:hover,
+a:focus {
+  color: #131313;
+}
+
+.small-text {
+  font-size: 1rem;
+}
+
+.container {
+  width: 570px;
+  margin: 0 auto;
+}
+
+.header,
+section {
+  padding: 6.25rem 0;
+}
+
+.inverse {
+  background-color: #252525;
+  color: white;
+}
+
+.about-me {
+  background-color: #FFEAEA;
+}
+
