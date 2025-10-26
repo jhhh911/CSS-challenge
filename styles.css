@@ -6,35 +6,56 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-size: 3.75rem;
+.container {
+  width: 570px;
+  margin: 0 auto;
+}
+
+.accent-text {
+  font-weight: 900;
+  display: block;
+  color: #99d930;
+}
+
+h1 .accent-text {
+  font-size: 80px;
+}
+
+h2 .accent-text {
+  font-size: 60px;
+}
+
+h1,
+h2 {
   font-weight: 300;
+  margin-top: 0;
+}
+
+h1 {
+    font-size: 60px;
 }
 
 h2 {
-  font-size: 2.625rem;
-  font-weight: 300;
+    font-size: 42px;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 h3 {
   font-size: 2.25rem;
   font-weight: 900;
+  margin-bottom: 0;
 }
 
-.title-span {
-  font-size: 80px;
-  display: block;
-  font-weight: 900;
-}
-
-.h2-span {
-  font-size: 60px;
-  display: block;
-  font-weight: 900;
+p {
+  margin-bottom: 0;
 }
 
 a {
   color: #99d930;
+  font-weight: 900;
 }
 
 a:hover,
@@ -44,11 +65,7 @@ a:focus {
 
 .small-text {
   font-size: 1rem;
-}
-
-.container {
-  width: 570px;
-  margin: 0 auto;
+  margin-top: 5px;
 }
 
 .header,
@@ -61,7 +78,28 @@ section {
   color: white;
 }
 
-.about-me {
-  background-color: #FFEAEA;
+.btn {
+  background-color: #99d930;
+  color: #252525;
+  margin-top: 3rem;
+  text-decoration: none;
+  padding: 10px 25px;
+  display: inline-block;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #252525;
+  color: #fff;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+  background-color: #fff;
+  color: #252525;
+}
+
+.name, time {
+  color: #99d930;
 }
 
